@@ -22,8 +22,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Shortcut Iteration Report
       - uses: trustlayer/shortcut-html-report@v1.0.2
+        name: Shortcut Iteration Report
         with:
           iterationId: 'v1.14'
           worflowStateId: '500000866'
